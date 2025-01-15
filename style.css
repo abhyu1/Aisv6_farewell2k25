@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom right, #b0e0e6, #4682b4);
@@ -8,12 +8,12 @@ body {
 }
 header {
     background-color: #4682b4;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 header h1 {
-    font-size: 4.5rem;
+    font-size: 2.8rem;
     margin: 0;
     color: #fff;
     font-family: 'Georgia', serif;
@@ -32,7 +32,7 @@ nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 1.5rem;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-family: 'Arial', sans-serif;
     position: relative;
 }
@@ -58,22 +58,22 @@ nav a:hover::after {
 
 /* Content Sections */
 .container {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
     text-align: center;
     background: rgba(255, 255, 255, 0.9);
     margin: 2rem auto;
     border-radius: 12px;
-    max-width: 80%;
+    max-width: 85%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .container h2 {
-    font-size: 3.2rem;
-    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
     color: #2f4f4f;
     font-family: 'Courier New', Courier, monospace;
 }
 .container p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.8;
     color: #333;
     font-family: 'Verdana', sans-serif;
@@ -86,14 +86,15 @@ nav a:hover::after {
 /* Gallery */
 #gallery img {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     margin: 1rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 #gallery img:hover {
     transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 #gallery {
     display: flex;
@@ -103,7 +104,7 @@ nav a:hover::after {
 
 /* RSVP Form */
 .rsvp-form {
-    max-width: 600px;
+    max-width: 500px;
     margin: 3rem auto;
     background: #f0f8ff;
     color: #333;
@@ -114,15 +115,15 @@ nav a:hover::after {
 .rsvp-form input, .rsvp-form button {
     width: 100%;
     padding: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
     border: 1px solid #ccc;
     border-radius: 8px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .rsvp-form button {
     background-color: #5a9bd4;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: bold;
     border: none;
     cursor: pointer;
@@ -140,6 +141,7 @@ footer {
     background-color: #4682b4;
     color: white;
     margin-top: 3rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Tahoma', sans-serif;
 }
+
