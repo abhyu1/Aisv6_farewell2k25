@@ -99,67 +99,30 @@ nav a:hover::after {
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* Strong shadow on highlights */
 }
 
-/* Gallery */
-#gallery img {
-    width: 100%;
-    max-width: 300px;
-    margin: 1rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
-}
-
-#gallery img:hover {
-    transform: scale(1.1);
-}
-
-#gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-/* RSVP Form */
-.rsvp-form {
-    max-width: 600px;
-    margin: 3rem auto;
-    background: #354227; /* Same dark green for RSVP box */
-    color: #ebe2c8;
-    padding: 2.5rem;
-    border-radius: 16px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
-}
-
-/* Ensure both input fields and button have consistent styling */
-.rsvp-form input, .rsvp-form button {
-    width: 100%;
-    padding: 1.2rem; /* Increased padding for both input and button */
-    margin-bottom: 1.5rem; /* Same margin between elements */
-    border: 1px solid #354227; /* Consistent border */
-    border-radius: 8px;
-    font-size: 1.3rem;
-    color: #354227;
+/* QR Code Section */
+.qr-container {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 2rem;
     background-color: #ebe2c8;
-    text-shadow: none; /* Removed shadow from input and button */
-    box-sizing: border-box; /* Ensures that padding does not affect width */
+    border-radius: 12px;
 }
 
-/* Submit button specific styles */
-.rsvp-form button {
-    background-color: #ebe2c8; /* Light beige for submit button */
-    color: #354227;
-    font-size: 1.4rem;
-    font-weight: bold;
-    border: 1px solid #354227;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.3s;
+.qr-code {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
 }
 
-.rsvp-form button:hover {
-    background-color: #dc8f00; /* Gold on hover */
-    color: #ebe2c8;
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+.payment-link {
+    margin-top: 20px;
+    color: #dc8f00;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.payment-link:hover {
+    text-decoration: underline;
 }
 
 /* Footer */
