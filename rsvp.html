@@ -17,26 +17,27 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
         }
     </style>
-    <script>
-        const hamburger = document.querySelector('.hamburger');
-        const menu = document.querySelector('.menu');
-
-        hamburger.addEventListener('click', () => {
-            menu.classList.toggle('active');
-        });
-    </script>
+    
 </head>
 <body>
     <header>
         <h1>Aisv6 Farewell 2025</h1>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">Venue&DressCode</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="rsvp.html">Vote</a>
-        <a href="payment-qr.html">Payment</a>
-        <a href="social.html">Socials</a>
+        <!-- Hamburger Icon -->
+        <div class="hamburger">
+            &#9776; <!-- This is the hamburger icon (3 bars) -->
+        </div>
+
+        <!-- Menu Links -->
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">Venue & DressCode</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="rsvp.html">Vote</a>
+            <a href="payment-qr.html">Payment</a>
+            <a href="social.html">Socials</a>
+        </div>
     </nav>
     <div class="container">
         <h2>Vote</h2>
@@ -49,5 +50,13 @@
     <footer>
         <p>&copy; 2025 Amity Vasundhara Sec-6. Crafted with ❤️ for an unforgettable farewell.</p>
     </footer>
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const menu = document.querySelector('.menu');
+
+        hamburger.addEventListener('click', () => {
+            menu.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
