@@ -139,7 +139,7 @@ nav a:hover::after {
     font-size: 1.3rem;
     color: #354227;
     background-color: #ebe2c8;
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* Shadow on input and button */
+    text-shadow: none; /* Removed shadow from input and button */
 }
 
 .rsvp-form button {
@@ -150,7 +150,7 @@ nav a:hover::after {
     border: 1px solid #354227;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.3s;
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* Shadow on submit button */
+    text-shadow: none; /* Removed shadow from submit button */
 }
 
 .rsvp-form button:hover {
