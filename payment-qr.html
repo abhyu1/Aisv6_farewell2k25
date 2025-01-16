@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment QR Code</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Linking the existing CSS -->
 </head>
 <body>
 
+    <!-- Header Section -->
     <header>
-        <h1>Scan QR to Make Payment</h1>
+        <h1>Payment QR Code</h1>
     </header>
 
+    <!-- Navigation Bar -->
     <nav>
-        <a href="#home">Home</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="rsvp-form.html">RSVP</a>
+        <a href="payment-qr.html">Payment QR</a>
     </nav>
 
+    <!-- QR Code Container -->
     <div class="container">
-        <div class="qr-container">
-            <!-- Replace 'payment-qr.png' with your actual image path -->
-            <img src="payment-qr.png" alt="Payment QR Code" class="qr-code">
-            <p><a href="https://rzp.io/l/your-payment-link" class="payment-link">Click here if the QR code doesn't work</a></p>
+        <h2>Scan the QR Code to Make a Payment</h2>
+        <p class="highlight">Scan the code below using your phone's camera or any QR scanning app to complete your payment.</p>
+        <div class="qr-code">
+            <img src="path/to/your/qr-code.png" alt="Payment QR Code" class="qr-img">
         </div>
     </div>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Your Event. All Rights Reserved.</p>
+        <p>&copy; 2025 Your Website Name. All rights reserved.</p>
     </footer>
 
 </body>
