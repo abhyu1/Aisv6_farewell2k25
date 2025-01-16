@@ -35,10 +35,12 @@ nav a {
     font-size: 1.6rem;
     font-family: 'Arial', sans-serif;
     position: relative;
+    transition: all 0.3s ease;
 }
 nav a:hover {
     text-decoration: underline;
     color: #dc8f00; /* Gold hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
 }
 nav a::after {
     content: '';
@@ -122,17 +124,19 @@ nav a:hover::after {
     background-color: #ebe2c8;
 }
 .rsvp-form button {
-    background-color: #354227;
-    color: #ebe2c8;
+    background-color: #ebe2c8; /* Light beige for submit button */
+    color: #354227;
     font-size: 1.4rem;
     font-weight: bold;
-    border: none;
+    border: 1px solid #ebe2c8;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s;
+    transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.3s;
 }
 .rsvp-form button:hover {
-    background-color: #295405;
+    background-color: #dc8f00; /* Gold on hover */
+    color: #ebe2c8;
     transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow on hover */
 }
 
 /* Footer */
