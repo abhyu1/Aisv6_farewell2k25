@@ -75,7 +75,7 @@ nav a:hover::after {
     border-radius: 12px;
     max-width: 80%;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* More prominent shadow */
-    border: 2px solid #ebe2c8; /* Prominent box outline */
+    border: 1px solid #000; /* Black, thinner border outline */
 }
 
 .container h2 {
@@ -129,14 +129,14 @@ nav a:hover::after {
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-    border: 2px solid #ebe2c8; /* Prominent border outline */
+    border: 1px solid #000; /* Black, thinner border outline */
 }
 
 .rsvp-form input, .rsvp-form button {
     width: 100%;
     padding: 1.2rem; /* Increased padding */
     margin-bottom: 1.5rem;
-    border: 2px solid #ebe2c8; /* Increased border width */
+    border: 1px solid #000; /* Black, thinner border */
     border-radius: 8px;
     font-size: 1.3rem;
     color: #354227;
@@ -149,7 +149,7 @@ nav a:hover::after {
     color: #354227;
     font-size: 1.4rem;
     font-weight: bold;
-    border: 2px solid #ebe2c8; /* Increased border width */
+    border: 1px solid #000; /* Black, thinner border */
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.3s;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow on submit button */
