@@ -10,7 +10,7 @@ header {
     background-color: #354227; /* Same dark green for the header */
     padding: 3rem;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.3);
 }
 header h1 {
     font-size: 4.5rem;
@@ -26,7 +26,7 @@ nav {
     justify-content: center;
     background-color: #354227; /* Dark green to match header */
     padding: 1rem;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 nav a {
     color: #ebe2c8; /* Light beige font for links */
@@ -66,7 +66,7 @@ nav a:hover::after {
     margin: 2rem auto;
     border-radius: 12px;
     max-width: 80%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 .container h2 {
     font-size: 3.2rem;
@@ -110,15 +110,15 @@ nav a:hover::after {
     background: #354227; /* Same dark green for RSVP box */
     color: #ebe2c8;
     padding: 2.5rem;
-    border-radius: 16px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 32px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 .rsvp-form input, .rsvp-form button {
     width: 100%;
     padding: 1rem;
     margin-bottom: 1.5rem;
     border: 1px solid #ebe2c8;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 1.3rem;
     color: #354227;
     background-color: #ebe2c8;
@@ -128,7 +128,7 @@ nav a:hover::after {
     color: #354227;
     font-size: 1.4rem;
     font-weight: bold;
-    border: 1px solid #ebe2c8;
+    border: 2px solid #ebe2c8;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.3s;
 }
