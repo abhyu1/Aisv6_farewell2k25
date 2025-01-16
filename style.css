@@ -15,7 +15,7 @@ header {
 header h1 {
     font-size: 4.5rem;
     margin: 0;
-    color: #dc8f00; /* Gold font */
+    color: #dc8f00;
     font-family: 'Georgia', serif;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
@@ -24,12 +24,12 @@ header h1 {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #4b6a34; /* Match header with lighter green */
+    background-color: #4b6a34;
     padding: 1rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 nav a {
-    color: #dc8f00; /* Gold font for links */
+    color: #dc8f00;
     text-decoration: none;
     margin: 0 1.5rem;
     font-size: 1.6rem;
@@ -38,7 +38,7 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
-    color: #ffe080; /* Soft yellow for hover */
+    color: #ffe080;
 }
 nav a::after {
     content: '';
@@ -60,7 +60,7 @@ nav a:hover::after {
 .container {
     padding: 4rem 2rem;
     text-align: center;
-    background: #6a8f4d; /* Lighter green background for content sections */
+    background: #6a8f4d; /* Lighter green background */
     margin: 2rem auto;
     border-radius: 12px;
     max-width: 80%;
@@ -83,6 +83,41 @@ nav a:hover::after {
     font-weight: bold;
 }
 
+/* RSVP Form */
+.rsvp-form {
+    max-width: 600px;
+    margin: 3rem auto;
+    background: #6a8f4d; /* Lighter green for RSVP form */
+    color: #dc8f00;
+    padding: 3rem;
+    border: 2px solid #354227; /* Darker border for contrast */
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4); /* Stronger shadow for emphasis */
+}
+.rsvp-form input, .rsvp-form button {
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    border: 2px solid #354227; /* Dark border */
+    border-radius: 8px;
+    font-size: 1.4rem;
+    color: #354227;
+    background-color: #dc8f00; /* Gold background */
+}
+.rsvp-form button {
+    background-color: #295405; /* Bold green for the button */
+    color: #ebe2c8; /* Light beige font color */
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+.rsvp-form button:hover {
+    background-color: #354227; /* Slightly darker green for hover effect */
+    transform: scale(1.05);
+}
+
 /* Gallery */
 #gallery img {
     width: 100%;
@@ -101,47 +136,14 @@ nav a:hover::after {
     flex-wrap: wrap;
 }
 
-/* RSVP Form */
-.rsvp-form {
-    max-width: 600px;
-    margin: 3rem auto;
-    background: #6a8f4d; /* Lighter green for the RSVP form */
-    color: #dc8f00;
-    padding: 2.5rem;
-    border-radius: 16px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-}
-.rsvp-form input, .rsvp-form button {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid #dc8f00;
-    border-radius: 8px;
-    font-size: 1.3rem;
-    color: #354227;
-    background-color: #dc8f00;
-}
-.rsvp-form button {
-    background-color: #4b6a34;
-    color: #dc8f00;
-    font-size: 1.4rem;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s;
-}
-.rsvp-form button:hover {
-    background-color: #295405;
-    transform: scale(1.05);
-}
-
 /* Footer */
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #4b6a34; /* Match header with lighter green */
+    background-color: #4b6a34;
     color: #dc8f00;
     margin-top: 3rem;
     font-size: 1.2rem;
     font-family: 'Tahoma', sans-serif;
 }
+
