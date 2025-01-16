@@ -4,10 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #354227; /* Dark green background */
-    color: #dc8f00; /* Gold font color */
+    color: #ebe2c8; /* Light beige font color */
 }
 header {
-    background-color: #007805; /* Lighter green for the header */
+    background-color: #4b6a34; /* Slightly lighter green for the header */
     padding: 3rem;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -15,7 +15,7 @@ header {
 header h1 {
     font-size: 4.5rem;
     margin: 0;
-    color: #dc8f00; /* Gold font */
+    color: #ebe2c8; /* Light beige font */
     font-family: 'Georgia', serif;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
@@ -24,12 +24,12 @@ header h1 {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #007805; /* Match header with lighter green */
+    background-color: #4b6a34; /* Match header with slightly lighter green */
     padding: 1rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 nav a {
-    color: #dc8f00; /* Gold font for links */
+    color: #ebe2c8; /* Light beige font for links */
     text-decoration: none;
     margin: 0 1.5rem;
     font-size: 1.6rem;
@@ -38,14 +38,14 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
-    color: #ffe080; /* Soft yellow for hover */
+    color: #dc8f00; /* Gold hover effect */
 }
 nav a::after {
     content: '';
     display: block;
     width: 0;
     height: 2px;
-    background: #dc8f00;
+    background: #ebe2c8;
     transition: width 0.3s;
     position: absolute;
     bottom: -5px;
@@ -60,7 +60,7 @@ nav a:hover::after {
 .container {
     padding: 4rem 2rem;
     text-align: center;
-    background: #6a8f4d; /* Lighter green background for content sections */
+    background: #6a8f4d; /* Softer green background for content sections */
     margin: 2rem auto;
     border-radius: 12px;
     max-width: 80%;
@@ -69,17 +69,17 @@ nav a:hover::after {
 .container h2 {
     font-size: 3.2rem;
     margin-bottom: 2rem;
-    color: #dc8f00;
+    color: #ebe2c8; /* Light beige font for headings */
     font-family: 'Courier New', Courier, monospace;
 }
 .container p {
     font-size: 1.5rem;
     line-height: 1.8;
-    color: #dc8f00;
+    color: #ebe2c8;
     font-family: 'Verdana', sans-serif;
 }
 .container .highlight {
-    color: #ffe080; /* Light yellow for highlights */
+    color: #dc8f00; /* Gold highlights */
     font-weight: bold;
 }
 
@@ -105,8 +105,8 @@ nav a:hover::after {
 .rsvp-form {
     max-width: 600px;
     margin: 3rem auto;
-    background: #6a8f4d; /* Lighter green for the RSVP form */
-    color: #dc8f00;
+    background: #6a8f4d; /* Softer green for RSVP box */
+    color: #ebe2c8;
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
@@ -115,15 +115,15 @@ nav a:hover::after {
     width: 100%;
     padding: 1rem;
     margin-bottom: 1.5rem;
-    border: 1px solid #dc8f00;
+    border: 1px solid #ebe2c8;
     border-radius: 8px;
     font-size: 1.3rem;
     color: #354227;
-    background-color: #dc8f00;
+    background-color: #ebe2c8;
 }
 .rsvp-form button {
     background-color: #4b6a34;
-    color: #dc8f00;
+    color: #ebe2c8;
     font-size: 1.4rem;
     font-weight: bold;
     border: none;
@@ -140,7 +140,7 @@ footer {
     text-align: center;
     padding: 2rem;
     background-color: #4b6a34; /* Match header with lighter green */
-    color: #dc8f00;
+    color: #ebe2c8;
     margin-top: 3rem;
     font-size: 1.2rem;
     font-family: 'Tahoma', sans-serif;
