@@ -162,6 +162,18 @@ nav a:hover::after {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow on hover */
 }
 
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #354227; /* Dark green footer */
+    color: #ebe2c8;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-family: 'Tahoma', sans-serif;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* Shadow on footer text */
+}
+
 /* QR Code Image Style */
 .qr-code {
     text-align: center;
@@ -178,17 +190,4 @@ nav a:hover::after {
 
 .qr-img:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
-}
-
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 2rem;
-    background-color: #354227; /* Dark green footer */
-    color: #ebe2c8;
-    margin-top: 3rem;
-    font-size: 1.2rem;
-    font-family: 'Tahoma', sans-serif;
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* Shadow on footer text */
 }
