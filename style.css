@@ -1,21 +1,21 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #b0e0e6, #4682b4);
-    color: #333;
+    background-color: #354227; /* Dark green background */
+    color: #ebe2c8; /* Light beige font color */
 }
 header {
-    background-color: #4682b4;
-    padding: 2rem;
+    background-color: #354227; /* Match body background */
+    padding: 3rem;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 header h1 {
-    font-size: 2.8rem;
+    font-size: 4.5rem;
     margin: 0;
-    color: #fff;
+    color: #ebe2c8; /* Light beige font */
     font-family: 'Georgia', serif;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
@@ -24,15 +24,15 @@ header h1 {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #5a9bd4;
+    background-color: #354227;
     padding: 1rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 nav a {
-    color: #fff;
+    color: #ebe2c8; /* Light beige font */
     text-decoration: none;
     margin: 0 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-family: 'Arial', sans-serif;
     position: relative;
 }
@@ -40,108 +40,42 @@ nav a:hover {
     text-decoration: underline;
     color: #ffcc00;
 }
-nav a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #ffcc00;
-    transition: width 0.3s;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-nav a:hover::after {
-    width: 100%;
-}
 
 /* Content Sections */
 .container {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
     text-align: center;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(53, 66, 39, 0.9); /* Slightly transparent dark green */
     margin: 2rem auto;
     border-radius: 12px;
-    max-width: 85%;
+    max-width: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .container h2 {
-    font-size: 2.4rem;
-    margin-bottom: 1.5rem;
-    color: #2f4f4f;
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+    color: #ebe2c8;
     font-family: 'Courier New', Courier, monospace;
 }
 .container p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.8;
-    color: #333;
+    color: #ebe2c8;
     font-family: 'Verdana', sans-serif;
 }
 .container .highlight {
-    color: #4682b4;
+    color: #ffcc00; /* Highlight text in yellow */
     font-weight: bold;
-}
-
-/* Gallery */
-#gallery img {
-    width: 100%;
-    max-width: 250px;
-    margin: 1rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-#gallery img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
-}
-#gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-/* RSVP Form */
-.rsvp-form {
-    max-width: 500px;
-    margin: 3rem auto;
-    background: #f0f8ff;
-    color: #333;
-    padding: 2.5rem;
-    border-radius: 16px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
-}
-.rsvp-form input, .rsvp-form button {
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1.2rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 1.2rem;
-}
-.rsvp-form button {
-    background-color: #5a9bd4;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s;
-}
-.rsvp-form button:hover {
-    background-color: #4682b4;
-    transform: scale(1.05);
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #4682b4;
-    color: white;
+    background-color: #354227;
+    color: #ebe2c8;
     margin-top: 3rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Tahoma', sans-serif;
 }
 
