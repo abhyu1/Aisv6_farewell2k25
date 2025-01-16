@@ -5,19 +5,22 @@ body {
     padding: 0;
     background-color: #354227; /* Dark green background */
     color: #ebe2c8; /* Light beige font color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Stronger shadow for all text */
 }
+
 header {
     background-color: #354227; /* Same dark green for the header */
     padding: 3rem;
     text-align: center;
-    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 header h1 {
     font-size: 4.5rem;
     margin: 0;
     color: #ebe2c8; /* Light beige font */
     font-family: 'Georgia', serif;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Stronger shadow for header */
 }
 
 /* Navigation Bar */
@@ -26,8 +29,9 @@ nav {
     justify-content: center;
     background-color: #354227; /* Dark green to match header */
     padding: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
+
 nav a {
     color: #ebe2c8; /* Light beige font for links */
     text-decoration: none;
@@ -36,12 +40,15 @@ nav a {
     font-family: 'Arial', sans-serif;
     position: relative;
     transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Stronger shadow on links */
 }
+
 nav a:hover {
     text-decoration: underline;
     color: #dc8f00; /* Gold hover effect */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
 }
+
 nav a::after {
     content: '';
     display: block;
@@ -54,6 +61,7 @@ nav a::after {
     left: 50%;
     transform: translateX(-50%);
 }
+
 nav a:hover::after {
     width: 100%;
 }
@@ -66,23 +74,29 @@ nav a:hover::after {
     margin: 2rem auto;
     border-radius: 12px;
     max-width: 80%;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 .container h2 {
     font-size: 3.2rem;
     margin-bottom: 2rem;
     color: #ebe2c8; /* Light beige font for headings */
     font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Strong shadow on headings */
 }
+
 .container p {
     font-size: 1.5rem;
     line-height: 1.8;
     color: #ebe2c8;
     font-family: 'Verdana', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Strong shadow on paragraphs */
 }
+
 .container .highlight {
     color: #dc8f00; /* Gold highlights */
     font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Strong shadow on highlights */
 }
 
 /* Gallery */
@@ -94,9 +108,11 @@ nav a:hover::after {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
 }
+
 #gallery img:hover {
     transform: scale(1.1);
 }
+
 #gallery {
     display: flex;
     justify-content: center;
@@ -110,28 +126,33 @@ nav a:hover::after {
     background: #354227; /* Same dark green for RSVP box */
     color: #ebe2c8;
     padding: 2.5rem;
-    border-radius: 32px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
+
 .rsvp-form input, .rsvp-form button {
     width: 100%;
-    padding: 1rem;
+    padding: 1.2rem; /* Increased padding */
     margin-bottom: 1.5rem;
-    border: 1px solid #ebe2c8;
-    border-radius: 10px;
+    border: 2px solid #ebe2c8; /* Increased border width */
+    border-radius: 8px;
     font-size: 1.3rem;
     color: #354227;
     background-color: #ebe2c8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow on input and button */
 }
+
 .rsvp-form button {
     background-color: #ebe2c8; /* Light beige for submit button */
     color: #354227;
     font-size: 1.4rem;
     font-weight: bold;
-    border: 2px solid #ebe2c8;
+    border: 2px solid #ebe2c8; /* Increased border width */
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow on submit button */
 }
+
 .rsvp-form button:hover {
     background-color: #dc8f00; /* Gold on hover */
     color: #ebe2c8;
@@ -148,4 +169,5 @@ footer {
     margin-top: 3rem;
     font-size: 1.2rem;
     font-family: 'Tahoma', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow on footer text */
 }
