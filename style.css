@@ -191,3 +191,8 @@ footer {
 .qr-img:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
 }
+iframe {
+    border: 2px solid #ebe2c8; /* Optional border for style */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
