@@ -4,12 +4,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #354227; /* Dark green background */
-    color: #ebe2c8; /* Font color */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adding shadow to all text */
+    color: #ebe2c8; /* Light beige font color */
 }
-
 header {
-    background-color: #4b6a34; /* Lighter green for the header */
+    background-color: #354227; /* Same dark green for the header */
     padding: 3rem;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -17,38 +15,39 @@ header {
 header h1 {
     font-size: 4.5rem;
     margin: 0;
-    color: #dc8f00; /* Gold font */
+    color: #ebe2c8; /* Light beige font */
     font-family: 'Georgia', serif;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Stronger shadow for header */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Navigation Bar */
 nav {
     display: flex;
     justify-content: center;
-    background-color: #4b6a34; /* Match header with lighter green */
+    background-color: #354227; /* Dark green to match header */
     padding: 1rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 nav a {
-    color: #dc8f00; /* Gold font for links */
+    color: #ebe2c8; /* Light beige font for links */
     text-decoration: none;
     margin: 0 1.5rem;
     font-size: 1.6rem;
     font-family: 'Arial', sans-serif;
     position: relative;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Added shadow to nav links */
+    transition: all 0.3s ease;
 }
 nav a:hover {
     text-decoration: underline;
-    color: #ffe080; /* Soft yellow for hover */
+    color: #dc8f00; /* Gold hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
 }
 nav a::after {
     content: '';
     display: block;
     width: 0;
     height: 2px;
-    background: #dc8f00;
+    background: #ebe2c8;
     transition: width 0.3s;
     position: absolute;
     bottom: -5px;
@@ -63,7 +62,7 @@ nav a:hover::after {
 .container {
     padding: 4rem 2rem;
     text-align: center;
-    background: #6a8f4d; /* Lighter green background for content sections */
+    background: #354227; /* Same dark green for content section */
     margin: 2rem auto;
     border-radius: 12px;
     max-width: 80%;
@@ -72,21 +71,18 @@ nav a:hover::after {
 .container h2 {
     font-size: 3.2rem;
     margin-bottom: 2rem;
-    color: #dc8f00;
+    color: #ebe2c8; /* Light beige font for headings */
     font-family: 'Courier New', Courier, monospace;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Added shadow to section headers */
 }
 .container p {
     font-size: 1.5rem;
     line-height: 1.8;
     color: #ebe2c8;
     font-family: 'Verdana', sans-serif;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Added shadow to paragraphs */
 }
 .container .highlight {
-    color: #ffe080; /* Light yellow for highlights */
+    color: #dc8f00; /* Gold highlights */
     font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Added shadow to highlights */
 }
 
 /* Gallery */
@@ -111,46 +107,45 @@ nav a:hover::after {
 .rsvp-form {
     max-width: 600px;
     margin: 3rem auto;
-    background: #6a8f4d; /* Lighter green for the RSVP form */
-    color: #dc8f00;
+    background: #354227; /* Same dark green for RSVP box */
+    color: #ebe2c8;
     padding: 2.5rem;
     border-radius: 16px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 .rsvp-form input, .rsvp-form button {
     width: 100%;
-    padding: 1.2rem; /* Increased padding */
+    padding: 1rem;
     margin-bottom: 1.5rem;
-    border: 2px solid #dc8f00; /* Increased border width */
+    border: 1px solid #ebe2c8;
     border-radius: 8px;
     font-size: 1.3rem;
     color: #354227;
-    background-color: #dc8f00;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Shadow for input and button */
+    background-color: #ebe2c8;
 }
 .rsvp-form button {
-    background-color: #4b6a34;
-    color: #dc8f00;
+    background-color: #ebe2c8; /* Light beige for submit button */
+    color: #354227;
     font-size: 1.4rem;
     font-weight: bold;
-    border: 2px solid #dc8f00; /* Increased border width */
+    border: 1px solid #ebe2c8;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Shadow for submit button */
+    transition: background-color 0.3s ease, transform 0.2s, box-shadow 0.3s;
 }
 .rsvp-form button:hover {
-    background-color: #295405;
+    background-color: #dc8f00; /* Gold on hover */
+    color: #ebe2c8;
     transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow on hover */
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 2rem;
-    background-color: #4b6a34; /* Match header with lighter green */
-    color: #dc8f00;
+    background-color: #354227; /* Dark green footer */
+    color: #ebe2c8;
     margin-top: 3rem;
     font-size: 1.2rem;
     font-family: 'Tahoma', sans-serif;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Added shadow to footer text */
 }
